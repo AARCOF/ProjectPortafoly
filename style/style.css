@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  background-color: darkslategrey;
+  color: beige;
+}
+
+li {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  padding: 10px;
+  padding-inline: 15px;
+  border-radius: 20px;
+  transition: color 0.7s ease;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  transition: color 0.7s ease;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: cadetblue;
+}
+
+input {
+  width: 15%;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+input[type="submit" i] {
+  background-color: #00a37a;
+  border-radius: 5px;
+}
+
+table {
+  display: flex;
+  width: 80%;
+  margin: 50 auto;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #041a24;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+li:hover {
+  background-color: rgba(46, 36, 85, 0.623);
+  padding: 11px;
+  padding-inline: 26px;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+input[type="submit" i]:hover {
+  transition: 1s;
+  background-color: aliceblue;
+  border-radius: 100px;
+  border-top: 25px;
+  color: red;
+}
